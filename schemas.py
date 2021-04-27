@@ -6,3 +6,4 @@ class CourseType(ObjectType):
   instructor = String(required=True)
   publish_date = String()
 
+print("Schema is updated")

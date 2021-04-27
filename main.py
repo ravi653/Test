@@ -18,3 +18,5 @@ class Query(ObjectType):
     
 app = FastAPI()
 app.add_route("/", GraphQLApp(schema=Schema(query=Query),executor_class=AsyncioExecutor))
+
+print("FastAPi server is enabled")
